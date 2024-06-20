@@ -1,0 +1,38 @@
+.slider {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.slider .slider-arrow-left,
+.slider .slider-arrow-right {
+    max-width: 50px;
+    height: 75%;
+    display: flex;
+    align-items: center;
+}
+
+.slider .slider-arrow-left:hover,
+.slider .slider-arrow-right:hover {
+    background-color: lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.slider .slider-arrow-left img,
+.slider .slider-arrow-right img {
+    width: 100%;
+    /*color: red;*/
+    /*filter: invert(50%) sepia(243%) saturate(1576%) hue-rotate(-21deg) brightness(137%) contrast(73%);*/
+}
+
+.slider-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}

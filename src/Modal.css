@@ -1,0 +1,114 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+    overflow-y: auto;
+    transition: opacity 1.95s;
+    z-index: 999;
+}
+
+.modal-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100%;
+}
+
+.modal-content {
+    position: relative;
+    padding: 75px 35px 25px 35px;
+    border-radius: 15px;
+    background-color: #f8f8f8;
+}
+
+.modal .modal-input-block {
+    text-align: right;
+}
+
+.modal-btn-close {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    color: #292929;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+    font-size: 1.15rem;
+}
+
+.modal-btn-close:hover {
+    color: #f8f8f8;
+    background-color: #6F4D1B;
+}
+
+.modal .modal-btn-block {
+    text-align: right;
+}
+
+.modal .modal-btn {
+    margin: 15px 0 0 5px;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.95rem;
+}
+
+.modal .modal-btn:hover {
+    opacity: 0.45;
+}
+
+.modal .modal-btn-enter {
+    color: #f8f8f8;
+    background-color: #6F4D1B;
+}
+
+.modal .modal-btn-enter:disabled {
+    opacity: 0.3;
+    cursor: auto;
+}
+
+.modal .modal-btn-cancel {
+    background-color: lightgray;
+}
+
+.modal .modal-btn-reset {
+    height: auto;
+    width: auto;
+    margin-right: 35px;
+    font-size: 0.75rem;
+    color: #828282;
+    background-color: #f8f8f8;
+}
+
+.modal-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background-color: lightgray;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.modal-checkbox {
+    width: 15px;
+    height: 15px;
+    margin-right: 7px;
+}

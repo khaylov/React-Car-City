@@ -1,0 +1,102 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 25px;
+}
+
+header img {
+    width: 125px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+header nav {
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+header ul {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    align-items: center;
+    list-style: none;
+}
+
+header ul li {
+    transition: color, background-color 200ms ease;
+}
+
+header ul li.header-nav-item.active {
+    color: #828282;
+    cursor: default;
+}
+
+header ul li:hover,
+header .header-phone a:hover {
+    color: #828282;
+    cursor: pointer;
+}
+
+header .header-phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+header .header-phone a {
+    font-size: 1.15rem;
+    text-decoration: none;
+    color: #292929;
+    transition: color 200ms ease;
+}
+
+header .header-phone-call {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+
+header .header-phone-call img {
+    height: 1.3rem;
+    width: auto;
+    cursor: auto;
+}
+
+header .header-phone button {
+    padding: 12px;
+    font-size: 1.25rem;
+    color: #6F4D1B;
+    background-color: #f8f8f8;
+    border: 3px solid #6F4D1B;
+    border-radius: 30px;
+    transition: background-color 150ms ease;
+    cursor: pointer;
+}
+
+header .header-phone button:hover {
+    background-color: #6F4D1B;
+    color: #f8f8f8;
+}
+
+.modal-callMe-input {
+    width: 205px;
+}
+
+.modal-callMe-checkbox-block {
+    display: flex;
+    align-items: center;
+}
+
+.modal-callMe-checkbox-block label {
+    font-size: 0.75rem;
+}
+
+.modal-callMe-checkbox-block input:active {
+    fill: #6F4D1B;
+}
